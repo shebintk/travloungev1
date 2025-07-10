@@ -1,0 +1,182 @@
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__
+travlounge/templatetags/__pycache__/**
+travlounge/__pycache__/**
+travloungev1/__pycache__/**
+db.sqlite3
+media
+photos
+/data
+*.bak 
+**/migrations/*
+admin_app/migrations/*.py
+customer/migrations/*.py
+
+# Exclude .pyc and cache files
+*.pyc
+__pycache__/
+
+# Ignore the logs directory
+logs/
+
+# Ignore all .txt files
+*.txt
+
+# Backup files # 
+*.bak 
+
+# If you are using PyCharm # 
+.idea/**/workspace.xml 
+.idea/**/tasks.xml 
+.idea/dictionaries 
+.idea/**/dataSources/ 
+.idea/**/dataSources.ids 
+.idea/**/dataSources.xml 
+.idea/**/dataSources.local.xml 
+.idea/**/sqlDataSources.xml 
+.idea/**/dynamic.xml 
+.idea/**/uiDesigner.xml 
+.idea/**/gradle.xml 
+.idea/**/libraries 
+*.iws /out/ 
+
+# Python # 
+*.py[cod] 
+*$py.class 
+
+# Distribution / packaging 
+.Python build/ 
+develop-eggs/ 
+dist/ 
+downloads/ 
+eggs/ 
+.eggs/ 
+lib/ 
+lib64/ 
+parts/ 
+sdist/ 
+var/ 
+wheels/ 
+*.egg-info/ 
+.installed.cfg 
+*.egg 
+*.manifest 
+*.spec 
+
+# Installer logs 
+pip-log.txt 
+pip-delete-this-directory.txt 
+
+# Unit test / coverage reports 
+htmlcov/ 
+.tox/ 
+.coverage 
+.coverage.* 
+.cache 
+.pytest_cache/ 
+nosetests.xml 
+coverage.xml 
+*.cover 
+.hypothesis/ 
+
+# Jupyter Notebook 
+.ipynb_checkpoints 
+
+# pyenv 
+.python-version 
+
+# celery 
+celerybeat-schedule.* 
+
+# SageMath parsed files 
+*.sage.py 
+
+# Environments 
+.env 
+.env.dev 
+.env.stage
+.env.production
+.venv 
+env/ 
+venv/ 
+ENV/ 
+env.bak/ 
+venv.bak/ 
+
+# Ignore Zappa settings file
+zappa_settings.json
+
+
+# mkdocs documentation 
+/site 
+
+# mypy 
+.mypy_cache/ 
+
+# Sublime Text # 
+*.tmlanguage.cache 
+*.tmPreferences.cache 
+*.stTheme.cache 
+*.sublime-workspace 
+*.sublime-project 
+
+# sftp configuration file 
+sftp-config.json 
+
+# Package control specific files Package 
+Control.last-run 
+Control.ca-list 
+Control.ca-bundle 
+Control.system-ca-bundle 
+GitHub.sublime-settings 
+
+# Visual Studio Code # 
+.vscode/
+!.vscode/settings.json 
+!.vscode/tasks.json 
+!.vscode/launch.json 
+!.vscode/extensions.json 
+.history
+
+
+__init__.cpython-38.pyc
+urls.cpython-38.pyc
+
+idproof/
+
+.DS_Store
+!requirements.txt
+
+utils/firebase/firebase-adminsdk.json
+
+z_test/
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+*.env
+env.*
+*.json
+*.pem
+*.key
+*.crt
+
+# Django-specific
+*.sqlite3
+/media/
+staticfiles/
+
+# IDE/editor
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Logs
+*.log
